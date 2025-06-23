@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+    <h1  style="color: blue;">TELANGANA STATE ROAD TRANSPORT CORPORATION</h1>
+    <h2>GENERAL BUS PASS APPLICATION</h2>
+    </center>
+    <form>
+        <fieldset>
+        <legend style="color: blue;">Applicant Details</legend>
+         <label for="name">Name</label>
+         <input type="text" id="name" name="Name" required> &nbsp &nbsp 
+        <label for="father's name/guardian's">Father's Name/Guardian's</label>
+        <input type="text" id="father's name/Guardian's" name="father's name/Guardians" required> <br> <br>
+        <label for="Date of birth">Date of birth</label>
+        <input type="date" name="date of birth" id="Date of birth" required> &nbsp; &nbsp;
+        <!-- <label for="female">Female</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="male" value="male"> &nbsp; <br> <br> -->
+        <label for="gender">gender</label>
+        <input type="radio" name="gender" id="male" value="male">
+        <label for="male">male</label>
+        <input type="radio" name="gender" value="female" id="female">
+        <label for="female">female</label>
+        <br> <br>
+        <label for="age">Age As on: </label>
+        <input type="age" name="age" id="age" required>&nbsp; &nbsp;
+        <label for="adhaar">Aadhaar No</label>
+        <input type="text" id="adhaar" name="adhaar" required> <br> <br>
+        <label for="Whatsapp no">Whatsapp No</label>
+        <input type="text" name="Whatsapp No" id="Whatsapp no" name="whattsapp no" required> &nbsp &nbsp
+        <label for="email id">E-mail id</label>
+        <input type="email" id="email id" name="email id" required> <br> <br>
+        <label for="photo">Photo</label>
+        <input type="file" name="photo" id="photo" name="photo" required>
+        </fieldset>
+        <fieldset>
+            <legend style="color: blue;">Residential Adress Details</legend>
+            <label for="applicant's address">Applicant's Address</label>
+            <input type="text" name="applicant adress" id="applicant adress" name="applicant address" required> &nbsp;&nbsp
+            <label for="district">District</label>
+            <!-- <input type="text" name="district" id="district" required> -->
+            <select name="district" id="district">
+                 <option value="district">select district</option>
+            <option value="district">ntr</option>
+            <option value="district">krishna</option>
+            </select>
+            <br> <br>
+            <label for="mandal">Mandal</label>
+            <!-- <input type="text" name="mandal" id="mandal" name="manadal" required> -->
+            <select name="mandal" id="mandal">
+                <option value="mandal">select mandal</option>
+                <option value="mandal">tvr</option>
+                <option value="mandal">vissenepeta</option>
+            </select>
+            <label for="village">Village</label>
+            <!-- <input type="text" name="village" id="village" required> &nbsp; &nbsp; -->
+            <select name="village" id="village">
+                <option value="village">select village</option>
+                <option value="village">tvr</option>
+                <option value="village">arugolanapeta</option>
+            </select>
+            <br><br>
+            <label for="pincode">Pincode</label>
+            <input type="text" name="pincode" id="pincode">
+        </fieldset>
+        <fieldset>
+            <legend style="color: blue;">Pass Type Details</legend>
+            <label for="city">City</label>
+            <input type="text" name="city" id="city">
+            <select name="city" id="city">
+                <option value="city">Hyderabad</option>
+            </select> <br> <br>
+            <label for="pass type">Pass Type</label>
+            <!-- <input type="text" name="passtype" id="passtype" required> -->
+            <select name="pass type" id="passtype">
+                <option value="passtype">---select---</option>
+                <option value="passtype">GREATER PASS</option>
+                <option value="passtype">ORDINARY PASS</option>
+            </select>
+            </fieldset>
+            <fieldset>
+                <legend style="color: blue;">Mode of Payment & Pass Collection</legend>
+                 <label for="payment mode">Payment Mode</label>
+                 <!-- <select name="payment mode" id="payment mode">
+                    <option value="payment mode">select payment mode</option>
+                    <option value="payment mode">payment at counter</option>
+                 </select> -->
+                 <!-- <input type="text" id="payment mode" name="payment mode" required> -->
+                 <select name="payment mode" id="payment mode">
+                    <option value="payment mode">select payment mode</option>
+                    <option value="payment mode">payment at counter</option>
+                 </select>  <br> <br>
+                 <label for="pass delivery mode">Pass Delivery Mode </label>
+                 <!-- <input type="text" name="pass delivery mode" id="pass delivery mode" required> -->
+                 <select name="pass delivery mode" id="pass delivery mode">
+                    <option value="pass delivery mode">select pass delivery mode</option>
+                    <option value="pass delivery mode">At counter</option>
+                 </select>
+                  <br>
+                 <br>
+                 <label for="center">Center at which you want to Collect Pass</label>
+                 <!-- <input type="text" id="center" id="center"> -->
+                 <select name="center " id="center">
+                    <option value="center">---select---</option>
+                    <option value="center">RTC CBS--HYD[24/06/2025]</option>
+                    <option value="center">RTC KOTI--HYD[24/06/2025]</option>
+                 </select>
+            </fieldset>
+            <br> <br>
+            <center>
+            <input type="submit">
+            </center>
+</body>
+</html>
